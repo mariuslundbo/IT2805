@@ -2,25 +2,89 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="IT2805 Project" content="IT2805 Project">
 		<title>IT2805 Project</title>
 		<link rel="stylesheet" href="stylesheets/style1.css">
 	</head>
 	<body>
 		<header id="header">
 			<h2>Project</h2>
-			<nav id="menu_main"></nav>
+			<nav id="menu_main">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="./about/about.html">About</a>
+						<ul>
+							<li><a href="./about/andreas.html">Andreas</a></li>
+							<li><a href="./about/marius.html">Marius</a></li>
+							<li><a href="./about/stian.html">Stian</a></li>
+						</ul>
+					</li>
+					<li><a href="./contact/contact.html">Contact</a></li>
+					<li><a href="./work/work.html">Work</a></li>
+					<li><a href="./faq/faq.html">FAQ</a></li>
+					<li><a href="./links/links.html">Useful Links</a></li>
+					<li>
+						<form>
+							<input type="text">
+							<input type="submit" value="Search">
+						</form>
+					</li>
+				</ul>
+			</nav>
 		</header>
 		<main>
-			<section id="section1">
-				<p>Some text</p>
+			<section id="webtek_image"> 
+				<img src="#" alt="Webtek image">
 			</section>
-
+			<section id="section1">
+				<p>Dev Blog</p>
+			</section>
 			<section id="section2">
-				<p>Some text</p>
+				<p>Products</p>
+			</section>
+			<section id="section3">
+				<p>Pictures</p>
+			</section>
+			<section id="twitter_feed">
+				<a class="twitter-timeline" href="https://twitter.com/perjajaja" data-widget-id="520622492897910784">Tweets fra @perjajaja</a>
+				<!-- Twitter Feed -->
+				<script>
+					! function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+						if (!d.getElementById(id)) {
+							js = d.createElement(s);
+							js.id = id;
+							js.src = p + "://platform.twitter.com/widgets.js";
+							fjs.parentNode.insertBefore(js, fjs);
+						}
+					}(document, "script", "twitter-wjs");
+				</script>
 			</section>
 		</main>
 		<footer id="footer">
-
+			<section id="social_media">
+				Socil media 
+			</section>
+			<section id="sitemap">
+				<h2>Sitemap</h2>
+				<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="./about/about.html">About</a>
+							<ul>
+								<li><a href="./about/andreas.html">Andreas</a></li>
+								<li><a href="./about/marius.html">Marius</a></li>
+								<li><a href="./about/stian.html">Stian</a></li>
+							</ul>
+						</li>
+						<li><a href="./contact/contact.html">Contact</a></li>
+						<li><a href="./work/work.html">Work</a></li>
+						<li><a href="./faq/faq.html">FAQ</a></li>
+						<li><a href="./links/links.html">Useful Links</a></li>
+					</ul>
+			</section>
+			<section>
+				copyright an other footer stuff...
+			</section>
 		</footer>
 
 	</body>
