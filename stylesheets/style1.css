@@ -1,7 +1,28 @@
-Farger:
 
- #c4c4c6
- #32749c
- #ebecec
- #474747
+body{
+	background-color: #FFFFFF;
+	/*background-color: #ebecec;*/
+};
+
+
+#section1{
+	background-color: #c4c4c6;
+	padding: 20px;
+	
+
+}
+
+#section2{
+	background-color: #c4c4c6;
+	padding: 20px;
+}
+ 
+ p{
+	color: #474747;
+	/*background-color: #32749c;*/
+	padding: 20px;
+ 	
+ };
+ 
+ 
  
