@@ -70,8 +70,20 @@ li {
 
 #title_section {
 	height: 500px;
+<<<<<<< HEAD
 }
 
+=======
+	line-height: 500px;
+	background-color: 000000;
+}
+
+#webtek_image{
+	
+	
+}
+
+>>>>>>> origin/master
 .mid_sections {
 	height: 400px;;
 	width: 25%;
@@ -79,6 +91,7 @@ li {
 	float: left;
 	box-shadow: 1px 1px 1px #000000;
 }
+
 
 #section1 {
 	background-color: red;
