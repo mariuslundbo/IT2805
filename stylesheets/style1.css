@@ -69,13 +69,8 @@ li {
 };
 
 #title_section {
-	height: 800px;
-	width: 800px;
-	margin: auto;
-	background-color: black;
-	
+	height: 500px;
 }
-
 
 .mid_sections {
 	height: 400px;;
