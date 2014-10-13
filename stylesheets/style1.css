@@ -1,3 +1,12 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
 #header {
 	background-color: #606060;
 	padding: 3px;
@@ -7,25 +16,72 @@
 #logo {
 	width: 85px;
 	height: auto;
-	/*margin-left: 200px;
-	padding-top: 5px;
+	margin: auto;
+	vertical-align: middle;
+	/*padding-top: 5px;
 	padding-bottom: 5px;*/
 }
 
 #menu_main {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#menu_main a {
+	text-decoration: none;
+	color: #FFFFFF;
+	
 }
 
 #menu_main li {
 	display: inline;
+	padding: 10px;
 }
+
+#menu_main ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
 
 #menu_main li li {
 	display: none;
 }
-header{
-	background-color: #606060;
+
+#search_bar {
+	display: inline;	
 }
 
+#title_section {
+	height: 500px;
+}
+#wrap_mid {
+	margin: auto;
+}
+#menu_mid {
+	/*display: table;   /* Allow the centering to work */*/	
+	margin: auto;	
+	text-align: center;
+}
+
+.mid_sections {
+	height: 400px;;
+	width: 20%;
+	float: left;
+}
+
+#section1 {
+	background-color: red;
+}
+#section2 {
+	background-color: blue;
+}
+#section3 {
+	background-color: green;
+}
+#section4 {
+}
  
  
  
