@@ -29,8 +29,11 @@ li {
 
 #menu_main a {
 	text-decoration: none;
-	color: #FFFFFF;
-	
+	color: #c4c4c6;
+}
+
+#menu_main:hover a {
+	color: white;
 }
 
 #menu_main li {
