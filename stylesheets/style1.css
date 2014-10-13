@@ -3,6 +3,7 @@ body {
 	margin: 0;
 }
 
+
 li {
 	list-style-type: none;
 }
@@ -33,6 +34,10 @@ li {
 }
 
 #menu_main a:hover {
+<<<<<<< HEAD
+=======
+	text-decoration: none;
+>>>>>>> origin/master
 	color: white;
 }
 
@@ -60,15 +65,13 @@ li {
 	height: 500px;
 }
 
-#menu_mid {
-	margin: 0;
-	
-}
 
 .mid_sections {
 	height: 400px;;
 	width: 25%;
+	margin 0;
 	float: left;
+	box-shadow: 1px 1px 1px #000000;
 }
 
 #section1 {
