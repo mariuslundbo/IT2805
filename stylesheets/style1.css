@@ -32,7 +32,7 @@ li {
 	color: #c4c4c6;
 }
 
-#menu_main:hover a {
+#menu_main a:hover {
 	color: white;
 }
 
