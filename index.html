@@ -28,12 +28,24 @@
 					js.src = p + '://platform.twitter.com/widgets.js';
 					fjs.parentNode.insertBefore(js, fjs);
 				}
-			}(document, 'script', 'twitter-wjs');
+			}(document, 'script', 'twitter-wjs'
+					);
+		</script> <!-- Twitter Feed -->
+		<script>
+			! function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+				if (!d.getElementById(id)) {
+					js = d.createElement(s);
+					js.id = id;
+					js.src = p + "://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js, fjs);
+				}
+			}(document, "script", "twitter-wjs");
 		</script>
 		
 		<!-- STIANS BIDRAG START -->
 		
-		<header class="main_header">
+		<!-- <header class="main_header">
 			<div class="header">
 				<a href="index.html">
 					<img src="images/logo_grey.png" onmouseover="this.src='images/logo_white.png'"
@@ -45,14 +57,19 @@
 				<a href="FAQ/faq.html" class="header">FAQ</a>
 				<a href="links/links.html" class="header">Links</a>
 			</div>
-		</header>
+		</header> -->
 		
 		<!-- STIANS BIDRAG SLUTT -->
 
 		<header id="header">
-			<h2>Project</h2>
 			<nav id="menu_main">
 				<ul>
+					<li>
+						<a href="index.html"> 
+							<img src="images/logo_grey.png" onmouseover="this.src='images/logo_white.png'"
+							onmouseout="this.src='images/logo_grey.png'" id="logo"> 
+						</a>
+					</li>
 					<li>
 						<a href="index.html">Home</a>
 					</li>
@@ -130,18 +147,6 @@
 				</section>
 				<section id="twitter_feed">
 					<a class="twitter-timeline" href="https://twitter.com/perjajaja" data-widget-id="520622492897910784">Tweets fra @perjajaja</a>
-					<!-- Twitter Feed -->
-					<script>
-						! function(d, s, id) {
-							var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-							if (!d.getElementById(id)) {
-								js = d.createElement(s);
-								js.id = id;
-								js.src = p + "://platform.twitter.com/widgets.js";
-								fjs.parentNode.insertBefore(js, fjs);
-							}
-						}(document, "script", "twitter-wjs");
-					</script>
 				</section>
 
 			</div>
