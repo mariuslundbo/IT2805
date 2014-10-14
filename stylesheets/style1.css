@@ -3,7 +3,6 @@ body {
 	margin: 0;
 }
 
-/*-- general ---*/
 li {
 	list-style-type: none;
 }
@@ -13,6 +12,7 @@ li {
 }
 
 
+/* Header and menu */
 
 #header {
 	background-color: #606060;
@@ -87,12 +87,13 @@ li {
     background-color: white;
 }
 
-
 #search_button {
 	height: 30px;
 	width: 30px;
 	vertical-align: middle;
 }
+
+/* content */
 
 #title_section {
 	height: 600px;
@@ -101,7 +102,6 @@ li {
 }
 
 #webtek_image{
-	
 	
 }
 
@@ -117,12 +117,15 @@ li {
 #section1 {
 	background-color: red;
 }
+
 #section2 {
 	background-color: blue;
 }
+
 #section3 {
 	background-color: green;
 }
+
 #section4 {
 	margin: 0;
 	padding: 0;
