@@ -80,11 +80,26 @@ li {
     border: 0;
     border-radius: 3px;
     padding: 2px;
-    width: 150px;
+    
+    /*animation*/
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+    width: 50px;
 }
 
 #search_field:focus, #search_field:hover {
     background-color: white;
+}
+
+#search_field:hover {
+	/*animation*/
+	-webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+    width: 200px;
 }
 
 #search_button {
