@@ -1,6 +1,8 @@
 body {
 	padding: 0;
 	margin: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	
 }
 
 li {
@@ -32,7 +34,6 @@ li {
 	padding-bottom: 10px;
 	margin: auto;
 	width: 1000px;
-	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 18px;
 	
 }
@@ -142,14 +143,17 @@ li {
 
 /* content */
 
+
+
+main {
+	width: 1600px;
+	margin: auto;
+}
+ 
 #title_section {
 	height: 600px;
-	/*line-height: 500px;*/
-	/*background-color: 000000;*/
-}
-
-#webtek_image{
-	
+	vertical-align: middle;
+	margin-top: 5%;
 }
 
 .mid_sections {
@@ -158,25 +162,84 @@ li {
 	margin 0;
 	float: left;
 	box-shadow: 1px 1px 1px #000000;
+	background-color: #c4c4c6;
+	/*border: -2px solid #606060; */
+	
+	box-sizing:border-box;
+  	-moz-box-sizing:border-box;
+  	-webkit-box-sizing:border-box;
+  	border: 3px solid #606060;
 }
 
+#name_section {
+	float: left;
+	margin-left: 10%;
+}
+
+#webtek_image {
+	float: right;
+	margin-right: 10%;
+}
+
+#midsection {
+	clear: both;
+}
 
 #section1 {
-	background-color: red;
 }
 
 #section2 {
-	background-color: blue;
 }
 
 #section3 {
-	background-color: green;
 }
 
 #section4 {
 	margin: 0;
 	padding: 0;
 }
+
+#footer {
+	padding: 0;
+	margin: 0;
+	clear: both;
+	background-color: #606060;
+	color: #c4c4c6;
+	padding: 20px;
+	height: 270px;
+}
+
+#footer_content  {
+	width: 1300px;
+	margin: auto;
+	
+}
+
+#sitemap {
+	float: left;
+}
+
+#sitemap a {
+	color: #c4c4c6;
+	text-decoration: none;
+}
  
- 
+ #sitemap a:hover {
+	color: white;
+}
+
+#social_media {
+	float: right;
+}
+
+#social_media_hr {
+	height: 1px;
+    background: #c4c4c6;
+}
+
+#copyright {
+	clear: both;
+	text-align: center;
+	padding: 5px;
+}
  
