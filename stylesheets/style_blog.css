@@ -21,7 +21,7 @@
 	width: 800px;
 }
 
-#content p{
+#content div{
 	width: 500px;
 	margin-left:100px;
 	float:left;
@@ -35,6 +35,7 @@
 	width: auto;
 	height: 200px;
 	float: left;
+	border-radius: 10px;
 }
 
 #content li{

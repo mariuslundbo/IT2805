@@ -7,5 +7,7 @@ $("#marius_text").prepend(marius);
 $("#stian_text").prepend(andreas);
 
 $(document).ready(function() {
-	
+	$("#andreas_text").prepend(andreas);
+	$("#marius_text").prepend(marius);
+	$("#stian_text").prepend(andreas);
 });
