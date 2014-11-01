@@ -16,44 +16,44 @@
 			<nav id="menu_main">
 				<ul>
 					<li>
-						<a href="index.html"> <img src="images/logo_grey.png" onmouseover="this.src='images/logo_white.png'"
-						onmouseout="this.src='images/logo_grey.png'" id="logo"> </a>
+						<a href="../index.html"> <img src="../images/logo_grey.png" onmouseover="this.src='images/logo_white.png'"
+						onmouseout="this.src='../images/logo_grey.png'" id="logo"> </a>
 					</li>
 					<li>
-						<a  href="index.html">Home</a>
+						<a  href="../index.html">Home</a>
 					</li>
 					<li>
-						<a  href="./about/about.html">About</a>
+						<a  href="../about/about.html">About</a>
 						<ul>
 							<li>
-								<a  href="./about/andreas.html">Andreas</a>
+								<a  href="../about/andreas.html">Andreas</a>
 							</li>
 							<li>
-								<a  href="./about/marius.html">Marius</a>
+								<a  href="../about/marius.html">Marius</a>
 							</li>
 							<li>
-								<a  href="./about/stian.html">Stian</a>
+								<a  href="../about/stian.html">Stian</a>
 							</li>
 						</ul>
 					</li>
 					<li>
-						<a  href="./contact/contact.html">Contact</a>
+						<a  href="../contact/contact.html">Contact</a>
 					</li>
 					<li>
-						<a  href="./work/work.html">Work</a>
+						<a  href="../work/work.html">Work</a>
 					</li>
 					<li>
-						<a  href="./faq/faq.html">FAQ</a>
+						<a  href="../faq/faq.html">FAQ</a>
 					</li>
 					<li>
-						<a  href="./links/links.html">Useful Links</a>
+						<a  href="../links/links.html">Useful Links</a>
 					</li>
 					<li>
 						<form id="search_bar">
 							<input id="search_field" type="text">
-							<input id="search_button" type="image" src="./images/search_grey.png" alt="seach button"
-							onmouseover="this.src='images/search_white.png'"
-							onmouseout="this.src='images/search_grey.png'"> 
+							<input id="search_button" type="image" src="../images/search_grey.png" alt="seach button"
+							onmouseover="this.src='../images/search_white.png'"
+							onmouseout="this.src='../images/search_grey.png'"> 
 						</form>
 					</li>
 				</ul>
@@ -70,24 +70,24 @@
 					<h2>Sitemap</h2>
 					<ul>
 						<li>
-							<a href="index.html">Home</a>
+							<a href="../index.html">Home</a>
 						</li>
 						<li>
-							<a href="./about/about.html">About</a>
+							<a href="../about/about.html">About</a>
 							<ul>
 								<li>
-									<a href="./about/andreas.html">Andreas</a>
+									<a href="../about/andreas.html">Andreas</a>
 								</li>
 								<li>
-									<a href="./about/marius.html">Marius</a>
+									<a href="../about/marius.html">Marius</a>
 								</li>
 								<li>
-									<a href="./about/stian.html">Stian</a>
+									<a href="../about/stian.html">Stian</a>
 								</li>
 							</ul>
 						</li>
 						<li>
-							<a href="./contact/contact.html">Contact</a>
+							<a href="../contact/contact.html">Contact</a>
 						</li>
 						<li>
 							<a href="./work/work.html">Work</a>
@@ -107,7 +107,6 @@
 					<div id="twitter">
 						<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://twitter.com/perjajaja" data-count="none">Tweet</a>
 					</div>
-					<!-- <hr id="social_media_hr"> -->
 				</section>
 				<section id="copyright">
 					copyright an other footer stuff...
