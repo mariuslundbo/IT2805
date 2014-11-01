@@ -6,10 +6,12 @@
 		<title>IT2805 Project</title>
 		<link rel="stylesheet" href="../stylesheets/style_core.css">
 		<link rel="stylesheet" href="../stylesheets/style_home.css">
+		<link rel="stylesheet" href="../stylesheets/style_contact.css">
 		<script type="../text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 		<script type="../text/javascript" src="https://malsup.github.com/jquery.cycle.all.js"></script>
 		<script src="../scripts/main.js"></script>
 		<script src="../scripts/social_media.js"></script>
+		<script src="../scripts/style_contact.css"></script>
 	</head>
 	<body>
 		<header id="header">
@@ -37,7 +39,7 @@
 						</ul>
 					</li>
 					<li>
-						<a  href="../contact/contact.html">Contact</a>
+						<a  href="contact.html">Contact</a>
 					</li>
 					<li>
 						<a  href="../work/work.html">Work</a>
@@ -60,16 +62,12 @@
 			</nav>
 		</header>
 		<main>
-		
-			<form action="mailto:andrkje@stud.ntnu.no" enctype="text/plain" method="post">
-				<p>Name: <input name="Name" type="text" id="Name" size="40"></p>
-				<p>E-mail address: <input name="E-mail" type="text" id="E-mail" size="40"></p>
-				<p>Comment:</p>
-				<p><textarea name="Comment" cols="55" rows="5"
-				id="Comment"></textarea></p>
-				<p><input type="submit" name="Submit" value="Submit"></p>
-			</form>
-
+			<form id="email_form" action="email.php" method="../scripts/post" onsubmit="return validateForm()">
+				Name: <input type="text" name="name"><br>
+				Email: <input id="email" type="text" name="email"><br>
+				Subject: <input type="text" name="subject"><br>
+				Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+			<input type="submit" name="submit"  value="Submit">
 		</main>
 		<footer id="footer">
 			<div id="footer_content">
@@ -94,7 +92,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="../contact/contact.html">Contact</a>
+							<a href="contact.html">Contact</a>
 						</li>
 						<li>
 							<a href="../work/work.html">Work</a>
