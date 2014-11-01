@@ -37,6 +37,10 @@
 	float: left;
 }
 
+#content li{
+	list-style-type: circle;
+}
+
 #marius, #andreas, #stian{
 	clear:both;
 } 
