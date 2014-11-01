@@ -1,7 +1,7 @@
 #content{
 	width: 1000px;
 	margin:auto;
-	color: #c4c4c6;
+	color: #606060;
 }
 
 #content h2{
@@ -11,3 +11,33 @@
 #content h3{
 	padding-top: 20px;
 }
+
+#content a{
+	text-decoration: none;
+	color:#606060;
+}
+
+#content section{
+	width: 800px;
+}
+
+#content p{
+	width: 500px;
+	margin-left:100px;
+	float:left;
+}
+
+#content a :hover{
+	color: #c4c4c6;;
+}
+
+#content img {
+	width: auto;
+	height: 200px;
+	float: left;
+}
+
+#marius, #andreas, #stian{
+	clear:both;
+} 
+ 
