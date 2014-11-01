@@ -60,50 +60,8 @@
 			</nav>
 		</header>
 		<main>
-			<div id="title_section">
-				<section id="name_section">
-					<h2>The Crew</h2>
-					<p>
-						Andreas Kjerstad
-					</p>
-					<p>
-						Marius Lundbø
-					</p>
-					<p>
-						Stian Dysthe
-					</p>
-					<p>
-						Webtechnology IT2805 2014
-					</p>
-				</section>
-
-				<section id="webtek_image">
-					<img src="images/logo.png" alt="Webtek image">
-				</section>
-			</div>
-
-			<div id="midsection">
-				<section id="section1" class="mid_sections">
-					<a src="#"><img src="images/#" alt="Devblog image"></a>				
-				</section>
-				<section id="section2" class="mid_sections">
-					<a src="#"><img src="images/#" alt="Work image"></a>				
-				</section>
-				<section id="section3" class="mid_sections">
-					<!-- <img id="slideshow" src="https://dl.dropboxusercontent.com/u/65639888/image/1.jpg" alt="Slideshow">					 -->
-					<!-- Slideshow with animation -->
-					<div id="slideshow">
-						<div id="slideshow_images">
-							<img src="./images/img01.jpg" alt="Slideshow image">
-							<img src="./images/img02.jpg" alt="Slideshow image">
-							<img src="./images/img03.jpg" alt="Slideshow image">
-						</div>
-					</div>
-				</section>
-				<section id="section4" class="mid_sections">
-					<a class="twitter-timeline" href="https://twitter.com/perjajaja" data-widget-id="521628659417772033">Tweets fra @perjajaja</a>
-				</section>
-			</div>
+		
+		
 
 		</main>
 		<footer id="footer">
