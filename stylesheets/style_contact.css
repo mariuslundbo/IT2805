@@ -2,18 +2,18 @@
 	margin-top: 50px;
 }
 
-label {
+#content label {
 	  display: block;
 	  padding-left: 10px;  
 }
 
-input, textarea {
+#content input, textarea {
 	width: 300px;
 	margin: 10px;
 	padding: 2px;
 }
 
-#btn_send {
+#content #btn_send {
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 5px;
@@ -25,6 +25,6 @@ input, textarea {
 	color: #C4C4C6;
 }
 
-#btn_send:hover {
+#content #btn_send:hover {
 	color: white;
 }
