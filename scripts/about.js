@@ -2,6 +2,10 @@ var andreas = "andreas, andreas, andreas, andreas, andreas, andreas, andreas, an
 var marius = "marius, marius, marius, marius, marius, marius, marius, marius, marius, marius, marius, marius, marius, marius, marius, marius, marius, marius, marius, marius, marius, marius, marius, ";
 var stian = "stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, stian, ";
 
-$("#andreas_text").append(andreas);
-$("#marius_text").append(marius);
-$("#stian_text").append(andreas);
+$("#andreas_text").prepend(andreas);
+$("#marius_text").prepend(marius);
+$("#stian_text").prepend(andreas);
+
+$(document).ready(function() {
+	
+});
