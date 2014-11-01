@@ -1,6 +1,30 @@
-label
-{
-  display: block;
-  float: left;
-  width : 120px;    
+#email_form {
+	margin-top: 50px;
+}
+
+label {
+	  display: block;
+	  padding-left: 10px;  
+}
+
+input, textarea {
+	width: 300px;
+	margin: 10px;
+	padding: 2px;
+}
+
+#btn_send {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100px;
+	margin-left: 115px;
+	border: 0;
+	background: #606060;
+	color: #C4C4C6;
+}
+
+#btn_send:hover {
+	color: white;
 }

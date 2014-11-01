@@ -1,5 +1,5 @@
 <?php
-	$to = ""; //"andrkje@stud.ntnu.no";
+	$to = "";
 	$name = $_POST["name"];
 	$email = $_POST["email"];
 	$subject = $_POST["subject"];
@@ -12,6 +12,9 @@
 
 	// send email
 	mail($to,$subject,$message);
+	
+	// Send user to page after mail is sent
+	header("Location: ../contact/after.html");
 ?>
 
 

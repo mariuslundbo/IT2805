@@ -12,7 +12,6 @@
 		<script type="../text/javascript" src="https://malsup.github.com/jquery.cycle.all.js"></script>
 		<script src="../scripts/main.js"></script>
 		<script src="../scripts/social_media.js"></script>
-		<script src="../scripts/form_validation.js"></script>
 	</head>
 	<body>
 		<header id="header">
@@ -64,21 +63,10 @@
 		</header>
 		<main>
 			<div id="content">
-				<h2>Contact</h2>
+				<h2>Email was sent</h2>
 				<p>
-					Send us an email in the form below. 
+					Thank you for your request, the email will be answered shortly.
 				</p>
-				<form id="email_form" action="../scripts/email.php" method="post" onsubmit="return validateForm()">
-					<label for="name">Name: </label> 
-					<input type="text" name="name" placeholder="First Last"><br>
-					<label for="email">Email: </label>
-					<input id="email" type="text" name="email" placeholder="email@example.com"><br>
-					<label for="subject">Subject: </label>
-					<input type="text" name="subject" placeholder="Subject"><br>
-					<label for="message">Message: </label>
-					<textarea rows="5" name="message" cols="30" placeholder="Yor message..."></textarea><br>
-					<input id="btn_send" type="submit" name="submit"  value="Send Email">
-				</form>
 			</div>
 			
 		</main>
