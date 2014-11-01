@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../stylesheets/faq.css"?>
+<faq>
+	<title>Frequently Asked Questions</title>
+	<question>Who is AMS?</question>
+	<answer>AMS is a group for a project on NTNU in IT2805 consisting of Andreas Kjerstad, Marius Lundbø and Stian Dysthe.</answer>
+	<question>What are you doing?</question>
+	<answer>We are developing a website for a project in a web technology course.</answer>
+	<question>What technologies are you familiar with?</question>
+	<answer>Spread among us we know techologies as: HTML, CSS, Javascript, Java, XML, jQuery, Actionscript, Github and Photoshop.</answer>
+	<question>Are you planning on continue devoloping as a group in the future?</question>
+	<answer>That sure would be fun, but we'll see what the future brings.</answer>
+</faq>

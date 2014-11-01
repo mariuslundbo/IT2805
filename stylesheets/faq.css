@@ -1,0 +1,32 @@
+* {
+	color: #606060;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+}
+
+faq {
+    margin: auto;
+    width: 600px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 2px;
+    margin: auto;
+}
+
+title {
+    display: block;
+    font-size: 40px;
+    margin: 10px 0 5px;
+}
+
+question {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+answer   {
+    display:block;
+    margin-left: 35px;
+}
