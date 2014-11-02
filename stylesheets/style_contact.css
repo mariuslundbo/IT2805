@@ -11,6 +11,14 @@
 	width: 300px;
 	margin: 10px;
 	padding: 2px;
+	border: 1px solid #606060;
+
+}
+
+#content textarea {
+	height: 150px;
+	resize: none;
+	overflow:hidden;
 }
 
 #content #btn_send {
