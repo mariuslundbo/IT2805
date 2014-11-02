@@ -48,11 +48,15 @@
 	list-style-type: circle;
 }
 
-#mediaplayer{
+#content #mediaplayer{
 	position: absolute;
 	top: 125px;
+	/*Shadow supported by chrome, firefox, safari*/
 	box-shadow: 0px 0px 30px #888888;
+	-moz-box-shadow: 0px 0px 30px #888888;
+	-webkit-box-shadow: 0px 0px 30px #888888;
 	height: 480px;
+	width: 850px;
 	margin-left: auto;
 	margin-right: auto;
 }
