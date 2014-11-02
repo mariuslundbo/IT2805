@@ -27,6 +27,12 @@
 	float:left;
 }
 
+#content section p{
+	width: 500px;
+	margin-left:100px;
+	float:left;
+}
+
 #content a:hover{
 	color: #c4c4c6;
 }
