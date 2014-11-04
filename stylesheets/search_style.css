@@ -1,5 +1,22 @@
-
-. gcse {
+.gsc-input {
 	background: red;
 }
-    
+<div id="cse" style="width: 100%;">Loading</div>
+02
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+03
+<script type="text/javascript">
+04
+  google.load('search', '1', {language : 'en', style : google.loader.themes.ESPRESSO});
+05
+  google.setOnLoadCallback(function() {
+06
+    var customSearchControl = new google.search.CustomSearchControl('XXXXXXXXXXXXXXXXXXXXX:YYYYYYYYYYY');
+07
+    customSearchControl.setResultSetSize(google.search.Search.SMALL_RESULTSET);
+08
+    customSearchControl.draw('cse');
+09
+  }, true);
+10
+</script>
