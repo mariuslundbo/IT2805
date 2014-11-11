@@ -6,7 +6,6 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: Tahoma, Geneva, sans-serif;
-	
 }
  
 li {
@@ -24,6 +23,7 @@ li {
 	background-color: #606060;
 	padding: 3px;
 	line-height: 1;
+	min-width: 1600px;
 }
 
 #logo {
@@ -159,6 +159,7 @@ main {
 /* Footer */ 
 
 #footer {
+	min-width: 1600px;
 	padding: 0;
 	margin: 0;
 	clear: both;
