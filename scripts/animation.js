@@ -34,19 +34,22 @@ addEventListener("load", function() {
 		cX = r * Math.cos(time) + centerX;
 		cY = r * Math.sin(time) + centerY;
 
-		fX = r * Math.cos(time + 250) + centerX;
-		fY = r * Math.sin(time + 250) + centerY;
+		fX = r * Math.cos(time + 2*Math.PI/5) + centerX;
+		fY = r * Math.sin(time + 2*Math.PI/5) + centerY;
 
-		ieX = r * Math.cos(time + 500) + centerX;
-		ieY = r * Math.sin(time + 500) + centerY;
+		ieX = r * Math.cos(time + 2*2*Math.PI/5) + centerX;
+		ieY = r * Math.sin(time + 2*2*Math.PI/5) + centerY;
 
-		oX = r * Math.cos(time + 750) + centerX;
-		oY = r * Math.sin(time + 750) + centerY;
+		oX = r * Math.cos(time + 3*2*Math.PI/5) + centerX;
+		oY = r * Math.sin(time + 3*2*Math.PI/5) + centerY;
 
-		sX = r * Math.cos(time + 1000) + centerX;
-		sY = r * Math.sin(time + 1000) + centerY;
+		sX = r * Math.cos(time + 4*2*Math.PI/5) + centerX;
+		sY = r * Math.sin(time + 4*2*Math.PI/5) + centerY;
 
 		draw(cX, cY, fX, fY, ieX, ieY, oX, oY, sX, sY);
+
+		if (time > 2 * Math.PI)				// Reset time to prevent to large numbers in the calculations
+	    	time = 0;
 
 		time += (INTERVAL / 1000);
 	}, INTERVAL);
