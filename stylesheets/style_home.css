@@ -49,6 +49,15 @@
 #slideshow {
 	width: 400px;
 	height: 400px;
+	overflow: hidden;
+}
+
+#slideshow img {
+	height: 400px;
+	width: 400px;
+	float: left;
+	display: none;
+	
 }
 
 #section4 {
