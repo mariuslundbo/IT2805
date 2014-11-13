@@ -1,5 +1,5 @@
 var fw = "jQuery from http://jquery.com/ <br/> ajax from http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js <br /> and jQuery UI http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/jquery-ui.js" ;
-var img = "The images alternative.jpg, logo_dark_grey.png, logo_grey.png, logo.png, search_grey.png, search_white.png, search.png are all made by Stian Dysthe. <br />The profile pictures andreas.jpg, marius.jpg and stian.jpg are all private pictures. ";
+var img = "The images alternative.jpg, logo_dark_grey.png, logo_grey.png, logo.png, search_grey.png, search_white.png, search.png are all made by Stian Dysthe. <br />The profile pictures andreas.jpg, marius.jpg and stian.jpg are all private pictures. <br /> The Twitter feed and tweet button is provided by Twitter. <be /> The Facebook like button is provided byt Facebook.";
 var multi = "The multimedia from the Work page is made by Stian Dysthe.";
 
 $(document).ready(function() {
