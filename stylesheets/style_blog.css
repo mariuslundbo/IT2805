@@ -17,6 +17,10 @@
 	color:#606060;
 }
 
+.name_link {
+	text-decoration: underline !important;;
+}
+
 #content section{
 	width: 800px;
 }
