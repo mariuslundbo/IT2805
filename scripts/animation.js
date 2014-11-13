@@ -1,20 +1,22 @@
-var INTERVAL = 1;
-var r = 180;
-var centerX = 180;
-var centerY = 180;
+var INTERVAL = 1;				// Time interval in ms
+var r = 180;					// Radius of the circle
+var centerX = 180;				// Circle center x position
+var centerY = 180;				// Circle center y position
 
+// Make new images elements to use in the animation 
 var imgC = new Image();
 var imgF = new Image();
 var imgIe = new Image();
 var imgO = new Image();
 var imgS = new Image();
-
+// Setting source of the image elements
 imgC.src = "images/chrome.png";
 imgF.src = "images/firefox.png";
 imgIe.src = "images/internet-explorer.png";
 imgO.src = "images/opera.png";
 imgS.src = "images/safari.png";
 
+// Declear x and y positions variable of the images
 var cX = 0;
 var cY = 0;
 var fX = 0;
@@ -46,21 +48,21 @@ addEventListener("load", function() {
 		sX = r * Math.cos(time + 4*2*Math.PI/5) + centerX;
 		sY = r * Math.sin(time + 4*2*Math.PI/5) + centerY;
 
-		draw(cX, cY, fX, fY, ieX, ieY, oX, oY, sX, sY);
+		draw(cX, cY, fX, fY, ieX, ieY, oX, oY, sX, sY);	// Draw the images
 
-		if (time > 2 * Math.PI)				// Reset time to prevent to large numbers in the calculations
+		if (time > 2 * Math.PI)							// Reset time to prevent to large numbers in the calculations
 	    	time = 0;
 
-		time += (INTERVAL / 1000);
+		time += (INTERVAL / 1000);						// Increase time
 	}, INTERVAL);
 });
 
 function draw(cX, cY, fX, fx, ieX, ieY, oX, oY, sX, sY) {
-	var canvas = document.getElementById("the-canvas");
+	var canvas = document.getElementById("canvas");
 	var ctx = canvas.getContext("2d");
 
-	ctx.clearRect(0, 0, canvas.width, canvas.height);
 	// Clear the canvas
+	ctx.clearRect(0, 0, canvas.width, canvas.height);
 
 	// Draw images
 	ctx.drawImage(imgC, cX, cY);
