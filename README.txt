@@ -2,11 +2,46 @@
 README
 -------------------
 Members:
-
 Andreas Kjerstad: andrkje@stud.ntnu.no
 Marius Lundbø: mariulun@stud.ntnu.no
 Stian Dysthe: stiandy@stud.ntnu.no
+-------------------
+Choice of image formats:
+We used .png where we needed partial- and full transparency and .jpg for the other pictures because it's a lossy compression (relatively small in size, but still got good quality).
+.jpg also supports 16,7 million colors which makes it the right choice when using complex images and photographs.
+-------------------
+NOTES:
+We changed the structure of the site from:
+-home
+-about
+     -CV
+-contact
+-work
+     -programmming
+     -logos
+     -animations
+     -programming
+     -industrial mechanics
+-FAQ
+-useful links
 
+To:
+-Home
+-About
+	-Andreas
+	-Marius
+	-Stian
+-Contact
+	-Privacy Policy
+-Work
+-FAQ
+-Useful Links
+	-Reference page
+-Sitemap
+
+So it went from a personal site about Stian, to a personal site about the whole group.
+
+NB! The searchbar is just for show and doesn't work (it would be something we would implement if we were to continue working on the site).
 -------------------
 Page overview with technique overview:
 
