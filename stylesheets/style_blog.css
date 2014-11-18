@@ -51,10 +51,8 @@
 #content li{
 	list-style-type: circle;
 }
-
 #content #mediaplayer{
 	position: absolute;
-	top: 125px;
 	/*Shadow supported by chrome, firefox, safari*/
 	box-shadow: 0px 0px 30px #888888;
 	-moz-box-shadow: 0px 0px 30px #888888;
