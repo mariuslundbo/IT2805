@@ -16,7 +16,7 @@
 			document.createElement("header");
 			document.createElement("main");
 			document.createElement("nav");
-			document.createElement("section");
+			document.createElement("div");
 		</script>
 		<![endif]-->
 	</head>
@@ -76,13 +76,13 @@
 				</p>
 				<form id="email_form" action="../scripts/email.php" method="post" onsubmit="return validateForm()">
 					<label for="name">Name: </label> 
-					<input type="text" name="name" placeholder="First Last"><br>
+					<input id="name" type="text" name="name" placeholder="First Last"><br>
 					<label for="email">Email <a href="../contact/policy.html" style="text-decoration: underline">(privacy policy)</a>: </label>
 					<input id="email" type="text" name="email" placeholder="email@example.com"><br>
 					<label for="subject">Subject: </label>
-					<input type="text" name="subject" placeholder="Subject"><br>
+					<input id="subject" type="text" name="subject" placeholder="Subject"><br>
 					<label for="message">Message: </label>
-					<textarea rows="5" name="message" cols="30" placeholder="Your message..."></textarea><br>
+					<textarea id="message" rows="5" name="message" cols="30" placeholder="Your message..."></textarea><br>
 					<input id="btn_send" type="submit" name="submit"  value="Send Email">
 				</form>
 			</div>
@@ -90,7 +90,7 @@
 		</main>
 		<footer id="footer">
 			<div id="footer_content">
-				<section id="sitemap">
+				<div id="sitemap">
 					<h2>Sitemap</h2>
 					<ul>
 						<li>
@@ -128,18 +128,18 @@
 							<a href="../links/links.html">Useful Links</a>
 						</li>
 					</ul>
-				</section>
-				<section id="social_media">
+				</div>
+				<div id="social_media">
 					<h2>Share this page</h2>
 					<div class="fb-like" data-href="https://www.facebook.com/pages/AMS_webtech/969504346396904/" data-width="50" data-layout="button" data-action="recommend" data-show-faces="false" data-share="false"></div>
 
 					<div id="twitter">
 						<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://twitter.com/perjajaja" data-count="none">Tweet</a>
 					</div>
-				</section>
-				<section id="copyright">
+				</div>
+				<div id="copyright">
 					<p>Copyright 2014, AMS</p>
-				</section>
+				</div>
 			</div>
 		</footer>
 	</body>
