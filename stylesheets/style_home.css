@@ -3,7 +3,9 @@
 	vertical-align: middle;
 	margin-top: 5%;
 }
-
+main {
+	min-height: 800px;
+}
 .mid_sections {
 	height: 400px;
 	width: 25%;
